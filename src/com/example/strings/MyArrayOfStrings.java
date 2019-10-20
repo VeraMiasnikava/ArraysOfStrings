@@ -11,7 +11,7 @@ class MyArrayOfStrings {
     MyArrayOfStrings(int size) {
         try {
             this.size = size;
-           if (size < 1) {
+            if (size < 1) {
                 throw new InvalidArraySizeException("неверный размер массива!");
             }
             a = new String[size];
@@ -22,7 +22,7 @@ class MyArrayOfStrings {
     }
 
     void randomMyArrayOfStrings() {
-        int characterСode, length=0;
+        int characterСode, length = 0;
         char symbol;
         StringBuilder t = new StringBuilder();
         for (int i = 0; i < size; i++) {
